@@ -1,0 +1,8 @@
+{
+  "name": "Bapi Debnath - Embedded IoT Portfolio",
+  "description": "Portfolio of Bapi Debnath, Embedded System IoT Expert in BD specializing in embedded systems, IoT architecture, 3D prototyping, and hardware engineering.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

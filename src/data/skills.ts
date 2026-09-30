@@ -1,0 +1,88 @@
+import { SkillItem } from '../types';
+
+export const SKILLS: SkillItem[] = [
+  {
+    title: 'Embedded Systems',
+    desc: 'STM32, ESP32, AVR, RTOS',
+    icon: 'fas fa-microchip',
+    color: 'linear-gradient(135deg, #6366f1 0%, #4f46e5 100%)',
+    category: 'hardware',
+  },
+  {
+    title: 'IoT',
+    desc: 'MQTT, Wi-Fi, BLE, LoRa',
+    icon: 'fas fa-wifi',
+    color: 'linear-gradient(135deg, #0284c7 0%, #0369a1 100%)',
+    category: 'hardware',
+  },
+  {
+    title: '3D Printing',
+    desc: 'FDM, Resin, Slicing, Design',
+    icon: 'fas fa-cube',
+    color: 'linear-gradient(135deg, #d97706 0%, #b45309 100%)',
+    category: 'manufacturing',
+  },
+  {
+    title: 'Fusion 360',
+    desc: 'CAD, CAM, Simulation',
+    icon: 'fas fa-compass-drafting',
+    color: 'linear-gradient(135deg, #ea580c 0%, #c2410c 100%)',
+    category: 'design',
+  },
+  {
+    title: 'AIoT / Edge AI',
+    desc: 'TensorFlow Lite, ONNX, CV',
+    icon: 'fas fa-brain',
+    color: 'linear-gradient(135deg, #e11d48 0%, #be123c 100%)',
+    category: 'software',
+  },
+  {
+    title: 'PCB Design & Hardware',
+    desc: 'KiCad, Multi-Layer, SMD',
+    icon: 'fas fa-bolt',
+    color: 'linear-gradient(135deg, #059669 0%, #047857 100%)',
+    category: 'hardware',
+  },
+  {
+    title: 'Full-Stack Development',
+    desc: 'Next.js, React, Node.js, TypeScript',
+    icon: 'fas fa-code',
+    color: 'linear-gradient(135deg, #4f46e5 0%, #4338ca 100%)',
+    category: 'software',
+  },
+  {
+    title: 'CMS & Backend Systems',
+    desc: 'Payload CMS, Laravel, WordPress, REST APIs',
+    icon: 'fas fa-server',
+    color: 'linear-gradient(135deg, #7c3aed 0%, #6d28d9 100%)',
+    category: 'software',
+  },
+  {
+    title: '3D Animation & Motion',
+    desc: 'Blender, Product Renders, Rigging, Lighting',
+    icon: 'fas fa-film',
+    color: 'linear-gradient(135deg, #0891b2 0%, #0e7490 100%)',
+    category: 'design',
+  },
+  {
+    title: 'Mobile & IoT Apps',
+    desc: 'Flutter, Kotlin, BLE, MQTT, REST APIs',
+    icon: 'fas fa-mobile-screen',
+    color: 'linear-gradient(135deg, #0d9488 0%, #0f766e 100%)',
+    category: 'software',
+  },
+  {
+    title: 'Graphic & Brand Design',
+    desc: 'Illustrator, Photoshop, Vector Art',
+    icon: 'fas fa-palette',
+    color: 'linear-gradient(135deg, #db2777 0%, #be185d 100%)',
+    category: 'design',
+  },
+  {
+    title: 'Hardware Prototyping',
+    desc: 'Power Tools, Machining, Soldering, Enclosures',
+    icon: 'fas fa-screwdriver-wrench',
+    color: 'linear-gradient(135deg, #f97316 0%, #ea580c 100%)',
+    category: 'manufacturing',
+  },
+];
